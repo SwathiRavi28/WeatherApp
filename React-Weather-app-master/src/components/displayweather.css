@@ -1,0 +1,88 @@
+.displayweather {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.displayweather .maincard {
+  width: 500px;
+  margin-top: 10px;
+  align-self: center;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #ff9d00;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%238f4300' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23ff8e14' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23fd8020' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23fa722a' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23f56332' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23f05539' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23e94740' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23e03946' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23d72b4c' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23cc1d51' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23c10c55' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23b40059' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23a6005c' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2398005e' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23890060' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23790061' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23680060' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%2357005f' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  border: 1px solid black;
+}
+
+.displayweather .maincard .cardtitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.3rem;
+}
+
+.displayweather .maincard .cardsubtitle {
+  position: absolute;
+  left: 10px;
+
+  color: rgb(211, 204, 204);
+  margin-top: -8px;
+}
+.displayweather h1 {
+  font-size: 5rem;
+  margin: -10px;
+  margin-left: -150px;
+}
+
+.displayweather .weather-icon {
+  width: 100px;
+
+  position: absolute;
+  top: 50px;
+}
+
+.displayweather .weather-main {
+  position: absolute;
+
+  top: 120px;
+  left: 310px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.displayweather .weather-description {
+  position: absolute;
+  left: 10px;
+  font-size: 1.4rem;
+}
+.displayweather .weatherdetails {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+.displayweather .weatherdetails .section1 {
+  justify-self: right;
+  width: 300px;
+}
+
+h4 {
+  text-align: left;
+  margin-right: 30px;
+  font-size: 1.1rem;
+}
+
+td {
+  border-bottom: 2px dashed grey;
+}
+
+.displayweather .weatherdetails span {
+  font-size: 1.2rem;
+}
